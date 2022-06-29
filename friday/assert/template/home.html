@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+    background-color:forest;
+    table,tr,td{
+    border:1px solid black;
+    table-collapse:collapse;
+    background-color:tomato;
+    text-align:center;
+               }
+    </style>
+    <script>
+    function validation()
+     var a=document.T1.name.value;
+     var b=/^[A-Za-z]+$/;
+     if(a=="")
+     {
+        alert("Type character only");
+        document.T1.name.focus();
+        return false;
+     }
+     if (!a.match(b))
+     {
+     alert("only characters");
+     document.T1.name.focus();
+     return false;
+     }
+    </script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+<form name="T1" method="post" enctype="multipart/form-data" onsubmit="return validation()">
+    {% csrf_token %}
+
+    <tr><td><label>name  :</label> <input type="text" name="name"></td></tr>
+    <tr><td><label>photo  : </label> <input type="file" name="photo"></td></tr>
+    <tr><td><label>book   : </label> <input type="file" name="book"></td></tr>
+    <tr><td><label>clip    : </label> <input type="file" name="clip"></td></tr>
+    <tr><td><input type="submit">submit</td>
+    </tr>
+
+
+
+</form>
+    </table>
+</body>
+</html>

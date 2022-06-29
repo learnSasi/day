@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+<tr>
+
+    <td>Name</td>
+    <td>Photo</td>
+    <td>Book</td>
+    <td>Clip</td>
+    </tr>
+    {% for i in pv %}
+    <tr>
+    <td>{{i.Name}}</td>
+    <td><img src='{{i.Photo.url}}' width="300" height="150"></td>
+        <td><a href='{{i.Book.url}}'>document</a></td>
+        <td> <video controls style="width:700px;height:400px">
+            <source src="{{i.Clip.url}}" type="video/mp4"> </video> </td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
