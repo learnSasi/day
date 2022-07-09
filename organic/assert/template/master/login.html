@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/login_ss.css' %}">
+    <style>
+        .v1{border-left:15px ;
+        height: 100px;
+        margin-left:160px;
+        float:right;
+        margin-top:-110px;
+    </style>
+</head>
+<body>
+<fieldset style=" background-color:green;font-color:red;">
+    <h1 style="margin-left:30px;">Farm Fresh&reg</h1>
+    <a href="{% url 'start' %}"><b style="float:right;margin-right:150px;"> ADMIN</b> </a>
+    <a href="{% url 'pulses' %}"> <b>USER</b> </a>
+</fieldset>
+<hr>
+<h1 style="margin-left:300px">***OUR CERTIFICATE-Farm Fresh ***</h1>
+<img src="{% static 'image/c1.jpg' %}" style=" height:150px; width:150px;">
+<img src="{% static 'image/c2.png' %}" style=" height:150px;width:150px;margin-left:100px">
+<img src="{% static 'image/c3.jpg' %}" style=" height:150px;width:150px;margin-left:120px">
+<img src="{% static 'image/c4.png' %}" style=" height:150px;width:150px;margin-left:140px">
+<img src="{% static 'image/c6.jpg' %}" style=" height:150px;width:150px;margin-left:160px">
+
+<hr>
+<h1 style=" margin-left:500px">Our Other Products-Farm Fresh</h1>
+<img src="{% static 'image/clove.jpg' %}" style=" height:150px;width:150px">
+<img src="{% static 'image/pattai.jpg' %}" style=" height:150px;width:150px;margin-left:110px">
+<img src="{% static 'image/cardmum.jpg' %}" style=" height:150px;width:150px;margin-left:130px">
+<img src="{% static 'image/star.jpg' %}" style=" height:150px;width:150px;margin-left:150px">
+<img src="{% static 'image/leaf.jpg' %}" style=" height:150px;width:150px;margin-left:180px">
+
+<hr>
+<h1 style="margin-left:150px;color:g"><b>We care for your health...Blend yourself with nature and its product.Life with nature.!</b></h1>
+<h2 style="margin-left:100px;margin-left:50px;">Farm Fresh(Head office)<br>
+    No.2 adyar chennai-01<br>
+    044-2655 4833<br>
+    contact:99000 99000<br>
+
+    <div class="v1">
+    Farm Fresh(coimbatore)<br>
+    No:10, 3rd Cross Rd, near Annapoorna Hotel,<br>
+    Jawahar Nagar, 1st Layout, Saibaba Colony,<br>
+    Coimbatore, Tamil Nadu 641011
+    </div>
+</h2>
+
+
+</body>
+</html>

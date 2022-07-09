@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1><b>Farm Fresh account</b></h1>
+<table>
+    <form method="POST">
+        {% csrf_token %}
+    <h1 style="text-color:red;text-size:30px"><b>create an business account</b></h1>
+    <td>name <input type="text" name="name"></td>
+    <td>mobile_no <input type="text" name="mobile_no"></td>
+    <td>product_type <input type="text" name="product_type"></td>
+    <td>location <input type="text" name="location"></td>
+    <td>password <input type="text" name="password"></td>
+    <td>re_password <input type="text" name="re_password"></td>
+    <td><input type="submit" name="create"></td>
+    </form>
+</table>
+
+
+</body>
+</html>
