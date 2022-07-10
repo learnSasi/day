@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>User name</th>
+        <th>Password</th>
+    </tr>
+    {% for i in b %}
+    <tr>
+            <td>{{i.user_name}}</td>
+            <td>{{i.password}}</td>
+            <td> <a href="{% url 'update' i.id %}">update</a> </td>
+    </tr>
+   {% endfor %}
+</table>
+
+</body>
+</html>
