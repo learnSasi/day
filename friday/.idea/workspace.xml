@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f79875-8af0-41d3-9412-f15b7fa9c0b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../form/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/form.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/assert/template/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/assert/template/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/assert/template/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/form/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/form/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/form/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/form/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/form/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/user/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friday/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/friday/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../organic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../organic/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/friday/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+            <state relative-caret-position="280">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -49,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/friday/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1113">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="1680">
+              <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
               <folding>
                 <element signature="e#308#332#0" expanded="true" />
               </folding>
@@ -67,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assert/template/idea_view.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#video#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -95,12 +119,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assert/template/home_view.html" />
-        <option value="$PROJECT_DIR$/friday/settings.py" />
         <option value="$PROJECT_DIR$/friday/urls.py" />
         <option value="$PROJECT_DIR$/assert/template/idea_view.html" />
         <option value="$PROJECT_DIR$/idea/models.py" />
         <option value="$PROJECT_DIR$/idea/views.py" />
         <option value="$PROJECT_DIR$/assert/template/home.html" />
+        <option value="$PROJECT_DIR$/friday/settings.py" />
       </list>
     </option>
   </component>
@@ -142,7 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Organic_Health_Food" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -244,16 +268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/friday/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idea/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -263,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/friday/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="1680">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
           <folding>
             <element signature="e#308#332#0" expanded="true" />
           </folding>
@@ -281,9 +295,19 @@
     <entry file="file://$PROJECT_DIR$/assert/template/idea_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#video#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friday/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
